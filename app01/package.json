@@ -1,0 +1,25 @@
+{
+  "name": "app01",
+  "version": "1.0.0",
+  "description": "Aplicacao de escritorio multiplataforma em Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "Automaçao",
+    "Multiplataforma",
+    "node.js",
+    "chromium"
+  ],
+  "author": "Silas Almeida Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "smalltalk": "^4.0.7"
+  }
+}

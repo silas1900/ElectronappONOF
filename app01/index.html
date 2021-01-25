@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+ <html lang=”pt-br”>
+ <head>
+	<meta charset=”UTF-8”>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src *; script-src 'self'">
+	<title>IoT Esp8266</title>
+	
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+ </head>
+ <body >
+	<div class="principal">
+
+		<div class="alinha">
+			<label class="centro" id="lb1">Load1</label>
+			<button class="ligarLed1 verde">ON</button>
+			<button class="desligarLed1 vermelho">OFF</button>
+		</div>
+		<div class="alinha">
+			<label class="centro" id="lb2">Load2</label><br>
+			<button class="ligarLed2 verde">ON</button>
+			<button class="desligarLed2 vermelho">OFF</button>
+		</div>
+		<div class="alinha">
+			<label class="centro" id="lb3">Load3</label><br>
+			<button class="ligarLed3 verde">ON</button>
+			<button class="desligarLed3 vermelho">OFF</button>
+		</div>
+	</div>
+	<div class="alinha1">
+			<input class="caixa" id="valor" type="text" autofocus="true" placeholder="Address ip:192.0.0.11">
+			<button type="submit" class="buscaip cinza">SET IP</button>
+	</div>
+	<script src="renderer.js"></script> 
+ </body>
+ 
+ </html>

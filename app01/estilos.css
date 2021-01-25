@@ -1,0 +1,121 @@
+body{
+	background-color:#1C1C1C;
+	font-family:Arial;
+}
+.principal{
+	height: 60vh;
+	width: 87vh;
+	margin: auto;
+	display: block;
+	justify-content: center;
+	flex-direction: row;
+	padding: 12px;
+	/*border: 2px solid #000;*/
+	/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+	background-color:#1C1C1C; 
+}
+
+.verde{
+	padding: 12px 12px;
+	background-color:#32CD32;
+	color:#f00;
+	cursor: pointer;
+	width: 100px;
+	height: 70px;
+	border: none;
+}
+.verde:hover{
+	background-color:#006400;
+	color: #fff;
+
+}
+.vermelho{
+	padding: 12px 12px;
+	background-color:#8B0000;
+	color:#0f0;
+	cursor: pointer;
+	width: 100px;
+	height: 70px;
+	border: none;	
+}
+.vermelho:hover{
+	background-color:#FF0000;
+	color: #000;
+
+}
+.caixa{
+	width: 150px;
+	height: 40px;
+}
+.limpar{
+	padding: 12px 12px;
+	background-color:#8B008B;
+	margin-left: 5px;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+	width: 200px;
+	height: 45px;
+	border: none;	
+	
+
+}
+.limpar:hover{
+	background-color:#696969;
+	color: #fff;
+
+}
+.cinza{
+	padding: 12px 12px;
+	background-color: #9d44c0;
+	margin-left: 5px;
+	font-weight: bold;
+	text-align: center;
+	color:#000;
+	cursor: pointer;
+	width: 200px;
+	height: 45px;
+	border: none;	
+}
+.cinza:hover{
+	background-color: #446644;
+	color: #fff;
+
+}
+
+.alinha{
+	
+	height: 90px;
+	width: 300px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding: 12px;
+	/*border: 1px solid #000;*/
+	
+}
+.alinha1{
+	
+	height: 90px;
+	width: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding: 12px;
+	/*border: 1px solid #000;*/
+	
+}
+.centro{
+	color: #ff0;
+	
+	
+	display: flex;
+	position: relative;
+	top: 80px;
+    left: 120px;
+	
+	
+	
+}
